@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    padding: 15px;
+}
+
+h1 {
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+
+.post-lists-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.post-item {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    border: 1px solid blueviolet;
+    padding: 10px;
+    background: lightsalmon;
+}
+
+.post-item h3 {
+    font-size: 20px;
+}       
